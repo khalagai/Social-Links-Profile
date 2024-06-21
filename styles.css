@@ -1,0 +1,57 @@
+.mains {
+    background: hsl(0, 0%, 8%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.prof-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    background-color: hsl(0, 0%, 12%);
+    font-family: Inter;
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+@media (max-width:375px) {
+    h3, .prof-container, .prof-git, .prof-insta, .prof-mentor, .prof-linkedin, .prof-tweet {
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+.owner-name {
+    color: hsl(0, 0%, 100%);
+}
+.prof-loct {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.prof-intro {
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+}
+
+.prof-git, .prof-insta, .prof-mentor, .prof-linkedin, .prof-tweet  {
+    margin: 8px;
+    font-weight: 700; 
+    width: 80%;      
+}
+
+.fem {
+    height: 15px;
+    margin-top: 1.6px; 
+    margin-bottom: 3.5px;      
+}
+
+img {
+    border-radius: 50%;
+    height: 80px;
+    margin-top: 20px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
